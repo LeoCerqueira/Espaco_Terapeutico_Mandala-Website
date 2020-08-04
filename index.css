@@ -1,0 +1,41 @@
+.home {
+	background-image: url("/img/logometade.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: rgba(70, 106, 185, 0.15);
+}
+
+.head {
+	height: 50px;
+	display: flex;
+	align-content: center;
+}
+
+#primeiroitem {
+	margin-left: 10%;
+}
+
+.head a {
+	font-family: "Prompt", sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px 30px;
+	width: 175px;
+	color: rgb(59, 58, 58);
+}
+
+.head a:hover {
+	color: rgb(74, 65, 156);
+}
+
+.bodyhome {
+}
+
+.letreiro {
+	height: 900px;
+}
+
+.hr {
+	width: 980px;
+	margin-left: 0;
+}
