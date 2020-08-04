@@ -1,18 +1,26 @@
-.home {
-	background-image: url("/img/logometade.png");
-	background-position: right;
-	background-repeat: no-repeat;
-	background-color: rgba(70, 106, 185, 0.15);
+body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
+}
+
+.imghome {
+	position: absolute;
+	right: 100px;
+	height: 1000px;
+	opacity: 0.35;
+	z-index: -1000;
 }
 
 .head {
-	height: 50px;
+	border-radius: 8px;
+	height: 55px;
 	display: flex;
 	align-content: center;
 }
 
 #primeiroitem {
-	margin-left: 10%;
+	margin-left: 3%;
 }
 
 .head a {
@@ -21,7 +29,12 @@
 	text-decoration: none;
 	margin: 10px 30px;
 	width: 175px;
-	color: rgb(59, 58, 58);
+	color: rgb(115, 142, 185);
+	text-align: center;
+}
+
+.head a::first-letter {
+	font-size: 26px;
 }
 
 .head a:hover {
@@ -32,10 +45,39 @@
 }
 
 .letreiro {
-	height: 900px;
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	justify-content: center;
+}
+
+.et {
+	font-family: "Nova Round", cursive;
+	margin-top: auto;
+	font-size: 50px;
+	margin-bottom: 3%;
+	margin-left: 6%;
+	color: rgba(44, 42, 41, 0.664);
+}
+
+.mandala {
+	margin-top: 0px;
+	font-size: 250px;
+	line-height: 80%;
+	margin-bottom: auto;
+	margin-left: 4%;
+	font-family: "Lilita One", cursive;
+	font-family: "Nova Round", cursive;
+	color: rgba(126, 123, 123, 0.753);
+}
+
+.mandala::first-letter {
+	font-family: "Croissant One", cursive;
 }
 
 .hr {
-	width: 980px;
 	margin-left: 0;
+	background-color: rgba(57, 57, 114, 0.459);
+	height: 5px;
+	border-radius: round;
 }
