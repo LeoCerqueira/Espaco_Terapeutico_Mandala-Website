@@ -6,9 +6,9 @@ body {
 
 .imghome {
 	position: absolute;
-	right: 100px;
-	height: 1000px;
-	opacity: 0.35;
+	right: 5%;
+	height: 800px;
+	opacity: 0.3;
 	z-index: -1000;
 }
 
@@ -54,18 +54,18 @@ body {
 .et {
 	font-family: "Nova Round", cursive;
 	margin-top: auto;
-	font-size: 50px;
+	font-size: 30px;
 	margin-bottom: 3%;
-	margin-left: 6%;
+	margin-left: 15%;
 	color: rgba(44, 42, 41, 0.664);
 }
 
 .mandala {
 	margin-top: 0px;
-	font-size: 250px;
+	font-size: 190px;
 	line-height: 80%;
-	margin-bottom: auto;
-	margin-left: 4%;
+	margin-bottom: 15%;
+	margin-left: 10%;
 	font-family: "Lilita One", cursive;
 	font-family: "Nova Round", cursive;
 	color: rgba(126, 123, 123, 0.753);
