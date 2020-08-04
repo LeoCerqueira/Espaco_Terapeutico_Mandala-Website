@@ -78,6 +78,6 @@ body {
 .hr {
 	margin-left: 0;
 	background-color: rgba(57, 57, 114, 0.459);
-	height: 5px;
+	height: 3px;
 	border-radius: round;
 }
