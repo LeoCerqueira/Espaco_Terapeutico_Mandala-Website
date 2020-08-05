@@ -6,14 +6,14 @@ body {
 
 .imghome {
 	position: absolute;
-	right: 15%;
+	right: 6%;
 	height: 800px;
 	opacity: 0.3;
 	z-index: -1000;
 }
 
 .head {
-	height: 50px;
+	height: 40px;
 	display: flex;
 	align-content: center;
 	background-color: rgba(255, 255, 255, 0.534);
@@ -25,7 +25,7 @@ body {
 
 .head a {
 	font-family: "Prompt", sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	text-decoration: none;
 	margin: 10px 30px;
 	width: 175px;
@@ -34,11 +34,11 @@ body {
 }
 
 .head a::first-letter {
-	font-size: 26px;
+	font-size: 20px;
 }
 
 .head a:hover {
-	color: rgb(74, 65, 156);
+	color: rgb(129, 182, 243);
 }
 
 .bodyhome {
