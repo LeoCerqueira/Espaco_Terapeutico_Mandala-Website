@@ -1,0 +1,46 @@
+.pag2 {
+	background: linear-gradient(
+		rgba(113, 156, 235, 0.445),
+		rgba(255, 255, 255, 0.15)
+	);
+	height: 1600px;
+	width: 1350px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+.pag2 img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60;
+	opacity: 0.8;
+	margin-top: 350px;
+}
+
+.apresentacao {
+	margin-top: 200px;
+	text-align: center;
+}
+
+.txtpequeno {
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-family: "Prompt", sans-serif;
+	color: rgb(96, 175, 228);
+	font-weight: bold;
+}
+
+.txtchamada {
+	font-size: 26px;
+	letter-spacing: 4px;
+	font-family: "Prompt", sans-serif;
+	font-weight: bold;
+	color: rgb(90, 90, 90);
+}
+
+.txtcomercial {
+	font-size: 10;
+	letter-spacing: 2px;
+	font-family: "Prompt", sans-serif;
+	color: rgb(90, 90, 90);
+}
