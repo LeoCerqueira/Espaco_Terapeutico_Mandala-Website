@@ -41,9 +41,6 @@ body {
 	color: rgb(129, 182, 243);
 }
 
-.bodyhome {
-}
-
 .letreiro {
 	display: flex;
 	flex-direction: column;
@@ -66,20 +63,8 @@ body {
 	line-height: 80%;
 	margin-bottom: 15%;
 	margin-left: 10%;
-	font-family: "Lilita One", cursive;
-	font-family: "Nova Round", cursive;
-	color: rgba(126, 123, 123, 0.753);
-}
-
-.mandala::first-letter {
-	font-family: "Croissant One", cursive;
-}
-
-.hr {
-	margin-left: 0;
-	background-color: rgba(57, 57, 114, 0.459);
-	height: 3px;
-	border-radius: round;
+	font-family: "Dancing Script", cursive;
+	color: rgb(90, 108, 156);
 }
 
 .rodape {
@@ -113,4 +98,7 @@ body {
 	width: 55px;
 	margin-left: 115px;
 	margin-right: -5px;
+}
+
+#separacao {
 }
