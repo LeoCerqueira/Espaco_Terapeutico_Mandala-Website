@@ -8,6 +8,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	height: 850px;
+	border-radius: 20px;
 }
 
 #seta {
@@ -44,9 +45,10 @@
 	padding: 30px;
 	color: rgb(87, 90, 105);
 	width: 130px;
+	font-weight: bold;
 }
 
-.atrativo img {
+.atrativo .figura {
 	width: 80px;
 	opacity: 0.9;
 }
@@ -55,6 +57,41 @@
 	padding: 5px;
 	border-radius: 80px;
 	background-color: rgba(254, 254, 255, 0.829);
+}
+
+#relativa {
+	position: relative;
+	text-align: center;
+}
+
+.insta,
+.whats {
+	width: 45px;
+	margin-top: 110px;
+}
+
+.whats {
+	margin-left: 60px;
+}
+
+.insta {
+	border-radius: 30px;
+}
+
+.whats:hover {
+	box-shadow: 0px 0px 20px rgba(68, 78, 173, 0.781);
+	border-radius: 30px;
+	width: 55px;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+.insta:hover {
+	box-shadow: 0px 0px 20px rgba(68, 78, 173, 0.781);
+	border-radius: 30px;
+	width: 55px;
+	margin-top: 100px;
+	margin-right: -10px;
 }
 
 .bemvindo {
