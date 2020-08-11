@@ -48,7 +48,6 @@ body {
 
 .menuicon:hover {
 	background-color: rgba(114, 160, 246, 0.171);
-	box-shadow: 1px 1px 5px rgb(185, 182, 182);
 }
 
 .menuicon:hover ul {
@@ -108,7 +107,7 @@ body {
 .et {
 	font-family: "Nova Round", cursive;
 	margin-top: 3%;
-	font-size: 30px;
+	font-size: 50px;
 	margin-bottom: 3%;
 	margin-left: 25%;
 	color: rgba(44, 42, 41, 0.664);

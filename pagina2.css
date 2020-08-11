@@ -1,14 +1,15 @@
 .pag2 {
 	background: linear-gradient(
-		rgba(78, 154, 253, 0.52),
+		rgba(78, 154, 253, 0.198),
 		rgba(255, 255, 255, 0.15)
 	);
 	height: 1600px;
 	width: 1350px;
 	margin-right: auto;
 	margin-left: auto;
-	display: flex;
-	border-radius: 20px;
+	border-radius: 100px;
+	position: relative;
+	top: 900px;
 }
 .pag2 img {
 	margin-left: auto;
@@ -16,6 +17,8 @@
 	width: 60;
 	opacity: 1;
 	margin-top: 350px;
+	position: relative;
+	top: -800px;
 }
 
 .apresentacao {
@@ -88,9 +91,9 @@ span {
 .passagem02 {
 	background: linear-gradient(
 		rgba(255, 255, 255, 0.15),
-		rgba(78, 154, 253, 0.342) 80%
+		rgba(78, 154, 253, 0.205) 80%
 	);
-	border-radius: 20px;
+	border-radius: 100px;
 	height: 800px;
 	position: relative;
 	margin-top: 190px;
