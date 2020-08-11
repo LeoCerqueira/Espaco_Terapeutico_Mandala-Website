@@ -4,6 +4,66 @@ body {
 	max-width: 1500px;
 }
 
+.head {
+	display: inline;
+}
+
+.head img {
+	height: 25px;
+}
+
+.head ul ul li {
+	width: 150px;
+	text-align: center;
+
+	border-radius: 20px;
+}
+
+.head ul ul {
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 50px;
+	display: none;
+	list-style: none;
+	background-color: white;
+	z-index: 800;
+	padding: 0px;
+}
+
+.head ul ul li a {
+	padding: 15px;
+}
+
+.menuicon {
+	position: relative;
+	margin: 15px;
+	padding: 0px;
+	display: inline-flex;
+	padding: 10px;
+	border-radius: 20px;
+	list-style: none;
+	z-index: 900;
+}
+
+.menuicon:hover {
+	background-color: rgba(114, 160, 246, 0.171);
+	box-shadow: 1px 1px 5px rgb(185, 182, 182);
+}
+
+.menuicon:hover ul {
+	display: inline-flex;
+}
+
+.menuicon:active {
+	background-color: rgba(114, 160, 246, 0.171);
+	box-shadow: inset 1px 0px 5px rgb(185, 182, 182);
+}
+
+.head .otodo {
+	display: inline;
+}
+
 .home {
 	position: relative;
 }
@@ -16,13 +76,6 @@ body {
 	z-index: -1000;
 }
 
-.head {
-	height: 40px;
-	display: flex;
-	align-content: center;
-	background-color: rgba(255, 255, 255, 0.918);
-}
-
 #primeiroitem {
 	margin-left: 3%;
 }
@@ -31,7 +84,7 @@ body {
 	font-family: "Prompt", sans-serif;
 	font-size: 15px;
 	text-decoration: none;
-	margin: 10px 30px;
+	margin: auto;
 	width: 175px;
 	color: rgb(115, 142, 185);
 	text-align: center;
@@ -54,10 +107,10 @@ body {
 
 .et {
 	font-family: "Nova Round", cursive;
-	margin-top: 10%;
+	margin-top: 3%;
 	font-size: 30px;
 	margin-bottom: 3%;
-	margin-left: 15%;
+	margin-left: 25%;
 	color: rgba(44, 42, 41, 0.664);
 }
 
@@ -66,7 +119,7 @@ body {
 	font-size: 220px;
 	line-height: 80%;
 	margin-bottom: 10%;
-	margin-left: 10%;
+	margin-left: 15%;
 	font-family: "Dancing Script", cursive;
 	color: rgb(90, 108, 156);
 }
