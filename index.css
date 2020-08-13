@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin-left: auto;
 	margin-right: auto;
@@ -57,11 +61,17 @@ body {
 
 .menuicon:hover ul {
 	display: inline-flex;
+	animation-name: menuoption;
+	animation-duration: 1s;
 }
 
-.menuicon:active {
-	background-color: rgba(114, 160, 246, 0.171);
-	box-shadow: inset 1px 0px 5px rgb(185, 182, 182);
+@keyframes menuoption {
+	from {
+		opacity: 0.3;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .head .otodo {
@@ -81,7 +91,8 @@ body {
 }
 
 #primeiroitem {
-	margin-left: 3%;
+	margin-right: -55%;
+	margin-left: -55%;
 }
 
 .head a {
@@ -102,6 +113,10 @@ body {
 	color: rgb(129, 182, 243);
 }
 
+.head a:active {
+	color: rgb(192, 227, 238);
+}
+
 .letreiro {
 	display: flex;
 	flex-direction: column;
@@ -116,6 +131,18 @@ body {
 	margin-bottom: 3%;
 	margin-left: 25%;
 	color: rgba(44, 42, 41, 0.664);
+	animation-duration: 1s;
+	animation-name: slidein1;
+}
+
+@keyframes slidein1 {
+	from {
+		margin-left: 30%;
+	}
+
+	to {
+		margin-left: 25%;
+	}
 }
 
 .mandala {
@@ -125,7 +152,21 @@ body {
 	margin-bottom: 10%;
 	margin-left: 15%;
 	font-family: "Dancing Script", cursive;
-	color: rgb(90, 108, 156);
+	color: rgb(61, 122, 179);
+
+	animation-duration: 1s;
+	animation-name: slidein;
+	overflow: hide;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 5%;
+	}
+
+	to {
+		margin-left: 15%;
+	}
 }
 
 .rodape {

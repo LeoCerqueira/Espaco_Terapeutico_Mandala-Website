@@ -88,6 +88,10 @@ span {
 	margin-right: auto;
 }
 
+.dentrodafoto img:hover {
+	opacity: 0.6;
+}
+
 .linkdentrodafoto {
 	height: 35px;
 }
@@ -101,6 +105,9 @@ span {
 	height: 800px;
 	position: relative;
 	margin-top: 90px;
+	width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .passagem02 img {

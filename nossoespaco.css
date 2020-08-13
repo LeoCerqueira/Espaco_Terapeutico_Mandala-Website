@@ -82,3 +82,42 @@
 	font-family: "Prompt", sans-serif;
 	color: rgb(90, 90, 90);
 }
+
+.fimm {
+	width: 100%;
+	clear: left;
+	height: 120px;
+	background: linear-gradient(
+		90deg,
+		white,
+		rgba(130, 186, 250, 0.548),
+		white
+	);
+	text-align: center;
+	margin-top: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
+
+.fimm img {
+	height: 60px;
+	margin-top: 30px;
+	opacity: 0.8;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.fimm img:hover {
+	opacity: 0.5;
+}
+
+.rodapefim {
+	text-align: center;
+	font-family: "Prompt", sans-serif;
+	color: rgb(107, 107, 107);
+}
+
+.rodapefim sapn {
+	background-color: rgb(163, 209, 246);
+}
