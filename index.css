@@ -132,19 +132,6 @@ body {
 	margin-left: 25%;
 	color: rgba(44, 42, 41, 0.664);
 	animation-duration: 1s;
-	animation-name: slidein1;
-}
-
-@keyframes slidein1 {
-	from {
-		margin-left: 30%;
-		opacity: 0.2;
-	}
-
-	to {
-		margin-left: 25%;
-		opacity: 1;
-	}
 }
 
 .mandala {
@@ -155,22 +142,6 @@ body {
 	margin-left: 15%;
 	font-family: "Dancing Script", cursive;
 	color: rgb(61, 122, 179);
-
-	animation-duration: 1.7s;
-	animation-name: slidein;
-	overflow: hide;
-}
-
-@keyframes slidein {
-	from {
-		margin-left: 5%;
-		opacity: 0.2;
-	}
-
-	to {
-		margin-left: 15%;
-		opacity: 1;
-	}
 }
 
 .rodape {

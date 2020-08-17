@@ -52,6 +52,10 @@
 	background-color: rgb(113, 156, 235);
 }
 
+.enviar:hover {
+	opacity: 0.7;
+}
+
 .informacoes {
 	width: 35%;
 	float: left;

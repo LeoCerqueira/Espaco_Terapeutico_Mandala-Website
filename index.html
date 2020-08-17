@@ -32,6 +32,7 @@
 			href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="aos.css">
 		<link rel="stylesheet" href="nossoespaco.css" />
 		<link rel="stylesheet" href="pagina2.css" />
 		<link rel="stylesheet" href="index.css" />
@@ -74,11 +75,11 @@
 			</div>
 			<div class="bodyhome">
 				<div class="letreiro">
-					<p class="et">
+					<p  data-aos="fade-right" class="et">
 						Espaço <br />
 						Terapêutico
 					</p>
-					<p class="mandala">Mandala</p>
+					<p class="mandala" data-aos="fade-left">Mandala</p>
 				</div>
 				
 			</div>
@@ -91,7 +92,8 @@
 			</div>
 
 			<div class="qualidades">
-				<table>
+				<table data-aos="fade-up"
+				data-aos-duration="8000">
 					<tr>
 						<td class="atrat">
 							<img
@@ -159,12 +161,12 @@
 					<br>
 					<br>
 				<hr>
-				<div class="txtmaior">
+				<div  data-aos="fade-right" class="txtmaior">
 					
 					<br>
-					<p class="titulodotexto">ESPAÇO TERAPÊUTICO <span>MANDALA</span> </p>
+					<p  data-aos="fade-right" class="titulodotexto">ESPAÇO TERAPÊUTICO <span>MANDALA</span> </p>
 					<br>
-					<p class ="txtmaior1">Texto Somos Psicólogos (as) capacitados e apaixonados por aquilo
+					<p  class ="txtmaior1">Texto Somos Psicólogos (as) capacitados e apaixonados por aquilo
 						 que fazemos, presenciar e fazer parte da jornada de auto-conhecimento que
 						  a terapia proporciona é um privilégio que essa profissão nos permite. Não
 						   estamos completos, somos e fazemos nossa história. Fazer terapia é marcar
@@ -183,7 +185,7 @@
 				<br>
 				<br>
 				
-					<div class="textomenor">
+					<div data-aos="flip-right" class="textomenor">
 						<p class="titulodotexto1">MISSÃO</p>
 						<p class ="txtcomercial">
 						Exercer a psicologia e por meio dela devolver e desenvolver qualidade 
@@ -219,9 +221,9 @@
 					Veja as pessoas que fazem a diferença por você.
 				</p>
 			</div>
-			<table id="fotos">
+			<table  id="fotos">
 				<tr>
-					<td>
+					<td data-aos="fade-right">
 						<img
 							class="fotodatabela"
 							src="/img/nadja4.jpg"
@@ -248,7 +250,7 @@
 							/></a>
 						</div>
 					</td>
-					<td>
+					<td data-aos="fade-down">
 						<img
 							class="fotodatabela"
 							src="/img/semft.jpg"
@@ -275,7 +277,7 @@
 							/></a>
 						</div>
 					</td>
-					<td>
+					<td data-aos="fade-up">
 						<img
 							class="fotodatabela"
 							src="/img/semft.jpg"
@@ -360,16 +362,21 @@
 			</div>
 		</div>
 		<div class="areadoformulario">
+			
+
 			<div class="formulario">
-				<form action="">
-					<p ><input class="campo" type="text" name="nome" size="20" maxlength="35" placeholder="Nome"></p>
-					<P><input class="campo" type="email" name="email" id="email" placeholder="E-mail"></P>
-					<p><input class="campo" type="text" name="assunto" size="20" max="40" placeholder="Assunto"></p>
-					<p><textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Mensagem"></textarea></>
+				<form action="form.php" method="POST">
+					<p ><input tabindex="1" class="campo" type="text" name="nome" size="20" maxlength="35" placeholder="Nome" required></p>
+					<P><input  tabindex="2" class="campo" type="email" name="email" id="email" placeholder="E-mail" required></P>
+					<p><input tabindex="3" class="campo" type="text" name="assunto" size="20" max="40" placeholder="Assunto" required></p>
+					<p><textarea tabindex="4" name="comentario" id="comentario" cols="30" rows="10" placeholder="Mensagem" required></textarea>
 					<br>
 					<p><input class="enviar" type="submit" value="ENVIAR">	</p>
 				</form>
 			</div>
+			
+
+
 			<div class="informacoes">
 				<p class="ladoform1">LOCALIZAÇÃO</p>
 				<hr class="hrform">
@@ -391,7 +398,17 @@
 			<a href=""><img src="/img/faceblue.png" alt="linnk para o facebook"></a>
 		</div>
 		
-			
+		<script
+		src="https://code.jquery.com/jquery-3.5.1.js"
+		></script>
+		<script
+		src="aos.js"
+		></script>	
+		<script type="text/javascript">
+		AOS.init({
+			offset:200,
+			duration:1200,
+		});</script>		
 	</body>
 	<div class="rodapefim"><p>&copy; Todos os Direitos Reservados - <span>Espaço Terapêutico Mandala</span> | CNPJ. xx.xxxx.xxx/xxxx | design by Léo Cerqueira</p></div>
 	
