@@ -1,0 +1,186 @@
+@media (max-width: 1200px) {
+	body {
+		width: 100%;
+	}
+
+	.head ul:hover ul {
+		display: block;
+
+		border-radius: none;
+		box-shadow: none;
+	}
+
+	.head ul ul {
+		background-color: none;
+	}
+
+	.head ul ul li {
+		background-color: rgba(231, 236, 246, 0.986);
+		margin-top: 20px;
+		position: relative;
+		top: -50px;
+		box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.404);
+	}
+
+	.imghome {
+		height: 100%;
+		width: auto;
+		margin-left: auto;
+		opacity: 0.2;
+	}
+
+	.et {
+		margin-top: 15%;
+		font-size: 35px;
+	}
+
+	.mandala {
+		margin: 10%;
+		font-size: 1000%;
+		margin-top: 3%;
+	}
+
+	.letreiro {
+		height: 100%;
+		width: auto;
+	}
+	.setinha {
+		display: none;
+	}
+
+	.atrativo {
+		width: 100%;
+	}
+
+	.qualidades table td {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.qualidades table img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#relativa {
+		margin-top: 200px;
+	}
+
+	.bemvindo img {
+		width: 50%;
+		margin-right: auto;
+	}
+
+	.primeirotexto {
+		width: 90%;
+	}
+
+	.pag2 {
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	#quemsomos {
+		margin-top: 500px;
+	}
+
+	.quemsomos table tr {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.passagem02 {
+		height: auto;
+		width: 100%;
+		margin-top: 200px;
+	}
+
+	.vazio {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.mandala {
+		margin: 10%;
+		font-size: 600%;
+		margin-top: 3%;
+	}
+
+	.qualidades table td {
+		margin-top: 20px;
+	}
+
+	#relativa {
+		margin-top: 70px;
+		margin-bottom: 10px;
+	}
+
+	.bemvindo {
+		height: 100px;
+	}
+
+	.apresentacao {
+		margin-top: 130px;
+	}
+
+	.txtmaior {
+		float: none;
+		width: 100%;
+		margin-right: 15%;
+	}
+
+	.bemvindo img {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.textomenor {
+		float: none;
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 5%;
+	}
+
+	.pag2 {
+		position: relative;
+		top: 200px;
+		height: 400px;
+	}
+
+	.pag2 img {
+		position: relative;
+		bottom: 500px;
+	}
+
+	#quemsomos {
+		margin-top: 150px;
+	}
+
+	.passagem02 {
+		margin-top: 100px;
+	}
+
+	.formulario {
+		float: none;
+		width: 90%;
+	}
+
+	.informacoes {
+		float: none;
+		width: 90%;
+		margin-left: 0%;
+		margin-top: 50px;
+	}
+
+	.ladoform1 {
+		display: none;
+	}
+
+	.fimm {
+		margin-top: 80px;
+	}
+}
