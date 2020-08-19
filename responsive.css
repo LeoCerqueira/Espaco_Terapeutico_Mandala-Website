@@ -63,6 +63,10 @@
 		margin-right: auto;
 	}
 
+	.atrat p {
+		font-size: 85%;
+	}
+
 	#relativa {
 		margin-top: 200px;
 	}
