@@ -30,9 +30,10 @@ body {
 	width: auto;
 	height: 30px;
 	left: 53px;
+
 	display: none;
 	list-style: none;
-	background-color: rgba(231, 236, 246, 0.986);
+
 	z-index: 800;
 	padding: 0px;
 	border-radius: 0px 20px 20px 0px;
@@ -52,11 +53,11 @@ body {
 	border-radius: 20px;
 	list-style: none;
 	z-index: 900;
+	background-color: rgba(255, 255, 255, 0.712);
 }
 
-.menuicon:hover {
-	background-color: rgba(114, 160, 246, 0.171);
-	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.404);
+.menuicon:active {
+	box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.404);
 }
 
 .menuicon:hover ul {

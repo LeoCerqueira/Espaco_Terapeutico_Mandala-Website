@@ -103,10 +103,26 @@
 }
 
 @media (max-width: 600px) {
+	.phonebox {
+		height: 80px;
+	}
+
+	.imghome {
+		height: auto;
+		width: 100%;
+		position: absolute;
+		right: 0%;
+	}
+
 	.mandala {
 		margin: 10%;
-		font-size: 600%;
+		font-size: 500%;
 		margin-top: 3%;
+	}
+
+	.atrativo {
+		position: relative;
+		bottom: 300px;
 	}
 
 	.qualidades table td {
@@ -114,7 +130,7 @@
 	}
 
 	#relativa {
-		margin-top: 70px;
+		margin-top: 0px;
 		margin-bottom: 10px;
 	}
 
@@ -124,12 +140,20 @@
 
 	.apresentacao {
 		margin-top: 130px;
+		width: 97%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.txtmaior {
 		float: none;
 		width: 100%;
 		margin-right: 15%;
+	}
+
+	.txtmaior1 {
+		text-align: left;
+		margin: 15px;
 	}
 
 	.bemvindo img {
@@ -139,10 +163,14 @@
 	}
 
 	.textomenor {
+		margin-top: 20px;
+		margin-bottom: 90px;
 		float: none;
 		width: 80%;
-		margin-right: 10%;
-		margin-left: 5%;
+		margin-right: 0px;
+		margin-left: 3%;
+		background-color: rgba(124, 172, 250, 0.26);
+		box-shadow: inset 0px 0px 60px rgba(82, 119, 155, 0.568);
 	}
 
 	.pag2 {
@@ -157,11 +185,16 @@
 	}
 
 	#quemsomos {
-		margin-top: 150px;
+		margin-top: 10px;
+	}
+
+	.dentrodafoto {
+		width: 50%;
 	}
 
 	.passagem02 {
-		margin-top: 100px;
+		margin-top: 0px;
+		margin-bottom: 190px;
 	}
 
 	.formulario {
@@ -182,5 +215,19 @@
 
 	.fimm {
 		margin-top: 80px;
+		height: 50px;
+	}
+	.fimm img {
+		height: 50px;
+		margin-top: 0px;
+	}
+
+	.passagem02 img {
+		position: relative;
+		top: 90px;
+	}
+
+	#paddinerrado {
+		bottom: 0px;
 	}
 }
