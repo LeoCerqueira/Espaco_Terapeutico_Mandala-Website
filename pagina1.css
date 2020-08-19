@@ -4,9 +4,9 @@
 		rgba(78, 154, 253, 0.198)
 	);
 	z-index: -5000;
-	width: 1350px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 	height: 850px;
 	border-radius: 100px;
 	position: relative;
@@ -29,8 +29,8 @@
 }
 
 .qualidades {
-	width: inherit;
 	display: flex;
+
 	height: 430px;
 }
 
@@ -122,8 +122,9 @@
 }
 
 .bemvindo img {
-	margin-left: 27%;
-	margin-right: auto;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 .primeirotexto {

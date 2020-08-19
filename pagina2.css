@@ -4,9 +4,9 @@
 		rgba(255, 255, 255, 0.15)
 	);
 	height: 1600px;
-	width: 1350px;
-	margin-right: auto;
-	margin-left: auto;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 	border-radius: 100px;
 	position: relative;
 	top: 1400px;
@@ -22,7 +22,7 @@
 }
 
 #quemsomos {
-	margin-top: 850px;
+	margin-top: 550px;
 }
 
 .apresentacao {
@@ -106,9 +106,9 @@ span {
 	height: 800px;
 	position: relative;
 	margin-top: 90px;
-	width: 1350px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .passagem02 img {
