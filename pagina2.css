@@ -12,9 +12,9 @@
 	top: 1400px;
 }
 .pag2 img {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
 	opacity: 1;
 	margin-top: 350px;
 	position: relative;
@@ -112,7 +112,7 @@ span {
 }
 
 .passagem02 img {
-	margin-left: auto;
-	margin-left: auto;
-	width: 100%;
+	margin-left: 10%;
+	margin-left: 10%;
+	width: 80%;
 }

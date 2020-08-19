@@ -1,3 +1,27 @@
+@media (max-width: 1650px) {
+	.pag2 img {
+		margin-left: 20%;
+		margin-right: 20%;
+		width: 60%;
+	}
+	.passagem02 img {
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+		position: relative;
+	}
+
+	#quemsomos {
+		margin-top: 300px;
+	}
+
+	.mandaladapassagem {
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+}
+
 @media (max-width: 1200px) {
 	body {
 		width: 100%;
@@ -32,12 +56,14 @@
 	.et {
 		margin-top: 15%;
 		font-size: 35px;
+		margin-left: 35%;
 	}
 
 	.mandala {
 		margin: 10%;
 		font-size: 1000%;
 		margin-top: 3%;
+		text-align: center;
 	}
 
 	.letreiro {
@@ -83,10 +109,18 @@
 	.pag2 {
 		width: 100%;
 		margin-top: 100px;
+		position: relative;
+		top: 1000px;
+		height: 1400px;
+	}
+
+	.pag2 img {
+		position: relative;
+		bottom: 1240px;
 	}
 
 	#quemsomos {
-		margin-top: 500px;
+		margin-top: 0px;
 	}
 
 	.quemsomos table tr {
@@ -188,6 +222,7 @@
 		position: relative;
 		top: 200px;
 		height: 400px;
+		margin-bottom: -170px;
 	}
 
 	.pag2 img {
