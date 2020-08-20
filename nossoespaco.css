@@ -9,6 +9,34 @@
 	margin-top: 15%;
 }
 
+#tabelafotos {
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 150px;
+}
+
+#tabelafotos table {
+}
+
+#tabelafotos table td {
+	padding: 10px;
+	position: relative;
+}
+
+#tabelafotos table td img {
+	width: 100%;
+	box-shadow: 0px 0px 20px rgb(63, 98, 144);
+}
+
+.deitado1 {
+	margin-bottom: -5px;
+}
+
+.deitado2 {
+	margin-top: -8px;
+}
+
 .areadoformulario {
 	margin-top: 150px;
 	width: 65%;

@@ -133,8 +133,22 @@
 		margin-top: 200px;
 	}
 
+	#tabelafotos table {
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	#tabelafotos table td {
+		display: block;
+	}
+
 	.vazio {
 		display: none;
+	}
+
+	.empe {
+		height: 680px;
 	}
 }
 
@@ -163,13 +177,17 @@
 		text-align: center;
 	}
 
+	.et {
+		margin-left: 26%;
+	}
+
 	.atrativo {
 		position: relative;
 		bottom: 300px;
 	}
 
 	.qualidades table td {
-		margin-top: 20px;
+		margin-top: 40px;
 	}
 
 	#relativa {
@@ -226,6 +244,9 @@
 	.pag2 img {
 		position: relative;
 		bottom: 500px;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 	#quemsomos {
@@ -239,6 +260,31 @@
 	.passagem02 {
 		margin-top: -35px;
 		margin-bottom: 190px;
+	}
+
+	#tabelafotos table {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.empe {
+		height: 270px;
+	}
+
+	.deitado1,
+	.deitado2 {
+		height: 190px;
+	}
+	.manpass {
+		margin-top: 40px;
+		margin-bottom: -20px;
+	}
+
+	.mandaladapassagem {
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
 	}
 
 	.formulario {
@@ -273,5 +319,11 @@
 
 	#paddinerrado {
 		bottom: 0px;
+	}
+
+	.rodapefim {
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 	}
 }
