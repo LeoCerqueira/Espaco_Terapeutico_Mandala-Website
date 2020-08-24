@@ -12,7 +12,7 @@
 	}
 
 	#quemsomos {
-		margin-top: 300px;
+		margin-top: 500px;
 	}
 
 	.mandaladapassagem {
@@ -297,6 +297,11 @@
 		width: 90%;
 		margin-left: 0%;
 		margin-top: 50px;
+	}
+
+	.ladoform span {
+		font-size: 90%;
+		letter-spacing: 0px;
 	}
 
 	.ladoform1 {
