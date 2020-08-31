@@ -139,6 +139,10 @@
 		margin-right: 15%;
 	}
 
+	#fotos td {
+		margin-top: 170px;
+	}
+
 	#tabelafotos table td {
 		display: block;
 	}
@@ -330,5 +334,23 @@
 		width: 95%;
 		margin-left: 2.5%;
 		margin-right: 2.5%;
+	}
+
+	.container .card {
+		height: 150px;
+	}
+
+	.container .card:hover {
+		height: 1000px;
+	}
+
+	.quemsomos table tr {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#fotos {
+		width: 100%;
 	}
 }
