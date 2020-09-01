@@ -57,7 +57,7 @@
 #fotos {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20%;
+	margin-top: 10%;
 }
 
 span {
@@ -78,7 +78,7 @@ span {
 	position: relative;
 	max-width: 400px;
 	height: 250px;
-	background-color: rgba(131, 195, 238, 0.561);
+	background-color: rgb(202, 226, 243);
 	margin: 30px 10px;
 	padding: 20px 15px;
 	display: flex;
@@ -135,7 +135,7 @@ span {
 
 #fotos td {
 	position: relative;
-	padding: 0px;
+	height: 900px;
 }
 
 .dentrodafoto {

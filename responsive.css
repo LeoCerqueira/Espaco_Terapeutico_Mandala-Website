@@ -106,15 +106,15 @@
 	}
 
 	.pag2 {
-		margin-top: 100px;
+		margin-top: 400px;
 		position: relative;
-		top: 1000px;
+		top: 1200px;
 		height: 1400px;
 	}
 
 	.pag2 img {
 		position: relative;
-		bottom: 1240px;
+		bottom: 1340px;
 	}
 
 	#quemsomos {
@@ -141,6 +141,7 @@
 
 	#fotos td {
 		margin-top: 170px;
+		height: 100%;
 	}
 
 	#tabelafotos table td {
@@ -240,9 +241,9 @@
 
 	.pag2 {
 		position: relative;
-		top: 200px;
+		top: 0px;
 		height: 400px;
-		margin-bottom: -170px;
+		margin-bottom: -380px;
 	}
 
 	.pag2 img {
