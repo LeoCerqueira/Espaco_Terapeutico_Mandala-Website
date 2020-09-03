@@ -7,6 +7,8 @@
 			name="Mandala"
 			content="Espaço Terapêutico Mandala main home page"
 		/>
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
 		<link
 			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
 			rel="stylesheet"
@@ -352,19 +354,21 @@
 				</p>
 			</div>
 		</div>
-		<div id="tabelafotos">
-			<table>
-				<tr>
-					<td><img  data-aos="fade-right" class="deitado1" src="/fotos/1.jpg" alt=""></td>
-					<td rowspan="2" ><img data-aos="fade-up"  class="empe" src="/fotos/22.jpg" alt=""></td>
-					<td rowspan="2"><img data-aos="fade-down" class="empe" src="/fotos/33.jpg" alt=""></td>
-				</tr>
-				<tr>
-					<td><img data-aos="fade-right" class="deitado2" src="/fotos/4.jpg" alt=""></td>
-				</tr>
-			</table>
-
-		</div id="tabelafotos">
+		<div class="falsehtml">
+			<div class="swiper">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide" style="background-image:url(/fotos/1.jpg)"></div>
+					  <div class="swiper-slide" style="background-image:url(/fotos/1.jpg)"></div>
+					  <div class="swiper-slide" style="background-image:url(/fotos/1.jpg)"></div>
+					  <div class="swiper-slide" style="background-image:url(/fotos/1.jpg)"></div>
+					  <div class="swiper-slide" style="background-image:url(/fotos/1.jpg)"></div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				  </div>
+			</div>
+		</div>
 		
 		<div class="manpass">
 			<img
@@ -430,7 +434,29 @@
 		AOS.init({
 			offset:200,
 			duration:1200,
-		});</script>		
+		});</script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+			  effect: 'cube',
+			  grabCursor: true,
+			  cubeEffect: {
+				shadow: true,
+				slideShadows: true,
+				shadowOffset: 20,
+				shadowScale: 0.94,
+			  },
+			  loop:true,
+			  autoplay:{
+				  delay:2000,
+				  disableOnIteraction:false,
+			  },
+
+			  pagination: {
+				el: '.swiper-pagination',
+			  },
+			});
+		  </script>		
 	</body>
 	<div class="rodapefim"><p>&copy; Todos os Direitos Reservados - <span>Espaço Terapêutico Mandala</span>  | design by Léo Cerqueira</p></div>
 	

@@ -177,3 +177,29 @@ span {
 	margin-left: 10%;
 	width: 80%;
 }
+.falsehtml,
+.swiper {
+	position: relative;
+	margin-top: 300px;
+}
+
+.swiper {
+	background: #fff;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container {
+	width: 600px;
+	height: 600px;
+
+	margin-top: -150px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+}
