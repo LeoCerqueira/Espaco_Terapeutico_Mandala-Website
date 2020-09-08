@@ -20,6 +20,9 @@
 		margin-left: 25%;
 		margin-right: 25%;
 	}
+	.container .card:hover {
+		height: 550px;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -131,6 +134,10 @@
 		height: auto;
 
 		margin-top: 200px;
+	}
+
+	.container .card:hover {
+		height: 600px;
 	}
 
 	#tabelafotos table {
