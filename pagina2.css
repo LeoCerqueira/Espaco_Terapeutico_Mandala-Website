@@ -89,10 +89,7 @@ span {
 }
 
 .container .card:hover {
-	height: 800px;
-}
-
-.container .card:hover .imgBx {
+	height: 500px;
 }
 
 .container .card .imgBx {
