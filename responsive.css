@@ -39,6 +39,7 @@
 
 	.head ul ul {
 		background-color: none;
+		display: block;
 	}
 
 	.head ul ul li {
