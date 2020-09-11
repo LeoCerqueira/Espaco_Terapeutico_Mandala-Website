@@ -1,2 +1,4 @@
 # Mandala
-New Website to study.
+New Website to study. 
+This is my first web site.
+
