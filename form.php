@@ -1,48 +1,23 @@
-<?php
-
-$errors = [];
-$errorMessage = '';
-
-if (!empty($_POST)) {
-   $name = $_POST['nome'];
-   $email = $_POST['email'];
-   $assunto = $_POST['assunto'];
-   $message = $_POST['comentario'];
-  
-   if (empty($name)) {
-       $errors[] = 'Nome em branco.';
-   }
-
-   if (empty($assunto)){
-        $errors[] = 'Sem assunto.';
-
-   }
-
-   if (empty($email)) {
-       $errors[] = 'Sem email.';
-   } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-       $errors[] = 'Email invalido.';
-   }
-
-   if (empty($message)) {
-       $errors[] = 'Sem mensagem.';
-   }
 
 
-if (empty($errors)) {
-    $toEmail = 'll_cerqueira@hotmail.com';
-    $emailSubject = 'Email do site.';
-    $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
+<?php 
+if(isset($_POST['submit'])){
+    $to = "ll_cerqueira@hotmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['nome'];
+  //  $last_name = $_POST['last_name'];
+    $subject = "Formulário do site";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . " Escreveu o seguinte:" . "\n\n" . $_POST['comentario'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['comentario'];
 
-    $bodyParagraphs = ["Nome: {$name}", "Email: {$email}","Assunto: {$assunto}", "Mensagem:", $message];
-    $body = join(PHP_EOL, $bodyParagraphs);
-
-    
-} else {
-    $allErrors = join('<br/>', $errors);
-    $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-}
-}
-
-
+    $headers = "De:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Obrigado " . $first_name . ", entraremos em contato em breve.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
 ?>
+
+

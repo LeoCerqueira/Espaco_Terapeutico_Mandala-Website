@@ -399,8 +399,8 @@
 			
 
 			<div class="formulario">
-				<form action="/form.php" method="POST">
-					<?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
+				<form action="/form.php" name="contactform" method="POST">
+					
 					<p ><input tabindex="1" class="campo" type="text" name="nome" id="nome" size="20" maxlength="35" placeholder="Nome" required></p>
 					<P><input  tabindex="2" class="campo" type="email" name="email" id="email" placeholder="E-mail" required></P>
 					<p><input tabindex="3" class="campo" type="text" name="assunto" id="assunto" size="20" max="40" placeholder="Assunto" required></p>
