@@ -399,10 +399,11 @@
 			
 
 			<div class="formulario">
-				<form action="" method="POST">
-					<p ><input tabindex="1" class="campo" type="text" name="nome" size="20" maxlength="35" placeholder="Nome" required></p>
+				<form action="/form.php" method="POST">
+					<?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
+					<p ><input tabindex="1" class="campo" type="text" name="nome" id="nome" size="20" maxlength="35" placeholder="Nome" required></p>
 					<P><input  tabindex="2" class="campo" type="email" name="email" id="email" placeholder="E-mail" required></P>
-					<p><input tabindex="3" class="campo" type="text" name="assunto" size="20" max="40" placeholder="Assunto" required></p>
+					<p><input tabindex="3" class="campo" type="text" name="assunto" id="assunto" size="20" max="40" placeholder="Assunto" required></p>
 					<p><textarea tabindex="4" name="comentario" id="comentario" cols="30" rows="10" placeholder="Mensagem" required></textarea>
 					<br>
 					<p><input class="enviar" type="submit" value="ENVIAR">	</p>
