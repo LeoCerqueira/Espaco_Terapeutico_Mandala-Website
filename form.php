@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $first_name = $_POST['nome'];
   //  $last_name = $_POST['last_name'];
     $subject = "Formulário do site";
-    $subject2 = "Copy of your form submission";
+    $subject2 = "Cópia da sua mensagem pro Espaço Mandala";
     $message = $first_name . " " . " Escreveu o seguinte:" . "\n\n" . $_POST['comentario'];
     $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['comentario'];
 
