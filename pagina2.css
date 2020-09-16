@@ -83,7 +83,7 @@ span {
 	padding: 20px 15px;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 0 5px 202px rgba(0, 0, 0, 0.329);
+	box-shadow: 0 5px 202px rgba(93, 97, 163, 0.329);
 	transition: 0.3s ease-in-out;
 	border-radius: 15px;
 }
