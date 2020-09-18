@@ -89,8 +89,12 @@ span {
 	border-radius: 15px;
 }
 
-.container .card:hover {
-	height: 600px;
+.container .card:hovr {
+	height: 640px;
+}
+
+.slidecartao {
+	height: 640px !important;
 }
 
 .container .card .imgBx {
@@ -100,6 +104,21 @@ span {
 	top: -160px;
 	z-index: 1;
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+	background-color: rgba(243, 244, 245, 0.726);
+}
+
+.textodocartao {
+	height: 30px;
+	opacity: 0.5;
+	width: 25%;
+	position: relative;
+	margin-right: auto;
+	margin-left: 37.5%;
+	background-color: rgba(243, 244, 245, 0.726);
+}
+
+.container .card:hover .textodocartao {
+	opacity: 0;
 }
 
 .container .card .imgBx img {

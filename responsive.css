@@ -21,7 +21,7 @@
 		margin-right: 25%;
 	}
 	.container .card:hover {
-		height: 550px;
+		height: 640px;
 	}
 }
 
@@ -139,7 +139,7 @@
 	}
 
 	.container .card:hover {
-		height: 600px;
+		height: 640px;
 	}
 
 	#tabelafotos table {
@@ -362,7 +362,7 @@
 	}
 
 	.container .card:hover {
-		height: 540px;
+		height: 570px;
 	}
 
 	.quemsomos table tr {
