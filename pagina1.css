@@ -63,7 +63,8 @@
 	padding: 5px;
 	border-radius: 80px;
 	background-color: rgba(254, 254, 255, 0.972);
-	box-shadow: inset 5px 10px 35px rgba(64, 135, 228, 0.5);
+	box-shadow: inset 5px 10px 35px rgba(64, 135, 228, 0.5),
+		0 5px 72px rgba(22, 29, 71, 0.322);
 }
 
 #relativa {

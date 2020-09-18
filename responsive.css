@@ -204,7 +204,11 @@
 
 	.atrativo {
 		position: relative;
-		bottom: 300px;
+		bottom: 100px;
+	}
+
+	.qualidades table {
+		top: -130px;
 	}
 
 	.qualidades table td {
