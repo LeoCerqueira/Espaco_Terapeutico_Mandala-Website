@@ -89,7 +89,7 @@ span {
 	border-radius: 15px;
 }
 
-.container .card:hovr {
+.container .card:hover {
 	height: 640px;
 }
 
